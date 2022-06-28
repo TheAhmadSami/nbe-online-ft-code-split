@@ -1,0 +1,64 @@
+name: nbe_online_ft
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.3
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: FontAwesomeLight
+      fonts:
+        - asset: assets/fonts/FontAwesomeLight.ttf
+
+    - family: FontAwesomeRegular
+      fonts:
+        - asset: assets/fonts/FontAwesomeRegular.ttf
+
+    - family: FontAwesomeBrands
+      fonts:
+        - asset: assets/fonts/FontAwesomeBrands.ttf
+
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Cairo-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Cairo-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 700
+
+  assets:
+    - lib/main/assets/media/
+    - lib/main/assets/media/avatars/
+    - lib/accounts/assets/media/
+    - lib/accounts/assets/media/avatars/
+    - lib/cards/assets/media/avatars/
+    - lib/cards/assets/media/
+#    - lib/cards/assets/media/avatars/
+#    - lib/utils/assets/media/
+#    - lib/utils/assets/media/avatars/
+#    - lib/history/assets/media/
+#    - lib/history/assets/media/avatars/
